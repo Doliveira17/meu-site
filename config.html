@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Configurações - Brawl Lobby</title>
+  <link rel="stylesheet" href="css/config.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Brawl Lobby</div>
+      <ul class="menu">
+        <li><a href="inicio.html">Início</a></li>
+        <li><button id="btn-logout">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Configurações</h1>
+
+    <section class="box">
+      <h2>Alterar Nome de Usuário</h2>
+      <input type="text" id="input-nome" placeholder="Digite seu novo nome" />
+      <button id="btn-alterar-nome">Salvar Nome</button>
+      <p id="msg-nome"></p>
+    </section>
+
+    <section class="box">
+      <h2>Tema</h2>
+      <!-- Adiciona o onclick que chama a função global toggleTema() -->
+     <button id="btn-toggle-tema">Alternar Tema</button>
+
+
+    </section>
+  </main>
+
+  <script src="js/theme.js"></script>
+  <script src="js/config.js"></script>
+</body>
+</html>

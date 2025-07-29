@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Página Inicial - Brawl Lobby</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Brawl Lobby</div>
+      <ul class="menu">
+        <li><a href="#" id="btn-perfil">Perfil</a></li>
+        <li><a href="config.html" id="btn-config">Configurações</a></li>
+        <li><button id="btn-logout">Logout</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <h1>Olá, <span id="usuario-nome"></span>! 👋</h1>
+      <p>Bem-vindo(a) ao seu lobby de jogos.</p>
+      <p>Aqui você pode acessar suas partidas, configurar seu perfil e se divertir.</p>
+    </section>
+
+    <section class="content-section">
+      <section class="brawlers-section">
+  <h2>Seus Brawlers</h2>
+  <section class="brawlers-grid">
+  <a class="brawler-slot" href="brawler.html?id=1">
+    <img src="img/img1.jpg" alt="Inferno Rex" />
+    <p>Inferno Rex</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=2">
+    <img src="img/img2.jpg" alt="Cyber Mia" />
+    <p>Cyber Mia</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=3">
+    <img src="img/img3.jpg" alt="Capitão Trovão" />
+    <p>Capitão Trovão</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=4">
+    <img src="img/brawlers/4.png" alt="Sombra V" />
+    <p>Sombra V</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=5">
+    <img src="img/brawlers/5.png" alt="Funky Joe" />
+    <p>Funky Joe</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=6">
+    <img src="img/brawlers/6.png" alt="Neve" />
+    <p>Neve</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=7">
+    <img src="img/brawlers/7.png" alt="Tempestina" />
+    <p>Tempestina</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=8">
+    <img src="img/brawlers/8.png" alt="Blast" />
+    <p>Blast</p>
+  </a>
+  <a class="brawler-slot" href="brawler.html?id=9">
+    <img src="img/brawlers/9.png" alt="Z3-R0" />
+    <p>Z3-R0</p>
+  </a>
+</section>
+
+</section>
+
+    </section>
+  </main>
+  
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const tema = localStorage.getItem('tema') || 'claro';
+    if (tema === 'escuro') {
+      document.body.classList.add('tema-escuro');
+    } else {
+      document.body.classList.remove('tema-escuro');
+    }
+  });
+</script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

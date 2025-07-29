@@ -1,0 +1,31 @@
+.brawlers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.brawler-slot {
+  background: #111;
+  border-radius: 14px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 0 8px #ffaa00;
+}
+
+.brawler-slot:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffcc00;
+}
+
+.brawler-slot img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}

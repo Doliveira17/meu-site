@@ -1,0 +1,67 @@
+body.brawler-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to bottom, #222, #111);
+  min-height: 100vh;
+}
+
+.fire-theme {
+  background: linear-gradient(to bottom, #ff6a00, #7a1900);
+}
+
+.tech-theme {
+  background: linear-gradient(to bottom, #222, #6a00ff);
+}
+
+.storm-theme {
+  background: linear-gradient(to bottom, #001f3f, #0074D9);
+}
+
+.back-button {
+  display: block;
+  margin: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.brawler-image {
+  max-width: 300px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #fff5;
+}
+
+.info {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+}
+.dark-theme {
+  background: linear-gradient(to bottom, #000000, #222222);
+}
+
+.funk-theme {
+  background: linear-gradient(to bottom, #ff00ff, #660066);
+}
+
+.ice-theme {
+  background: linear-gradient(to bottom, #99ccff, #003366);
+}
+
+.wind-theme {
+  background: linear-gradient(to bottom, #e0f7fa, #26c6da);
+}
+
+.explosion-theme {
+  background: linear-gradient(to bottom, #ff3d00, #bf360c);
+}
+
+.cyber-theme {
+  background: linear-gradient(to bottom, #0f0f3d, #1a1a66);
+}
